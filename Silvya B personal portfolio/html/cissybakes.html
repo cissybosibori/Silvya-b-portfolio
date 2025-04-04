@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CissyBakes | Silvya Bosibori</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <canvas id="particle-canvas"></canvas>
+    <nav class="navbar">
+        <div class="logo">SB</div>
+        <ul class="nav-links">
+            <li><a href="index.html#home">Home</a></li>
+            <li><a href="index.html#about">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="education.html">Education</a></li>
+            <li><a href="cissybakes.html">CissyBakes</a></li>
+            <li><a href="index.html#skills">Skills</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <section class="cissybakes-hero">
+        <canvas class="particle-container baking-particles"></canvas>
+        <div class="hero-content">
+            <h1>CissyBakes</h1>
+            <h2>Where Creativity Meets Culinary Excellence</h2>
+            <p>Founded by Silvya Bosibori</p>
+        </div>
+    </section>
+
+    <section class="baking-story">
+        <div class="story-content">
+            <h2>My Baking Journey</h2>
+            <p>As the founder and CEO of CissyBakes, I've transformed my passion for baking into a thriving business. The precision, creativity, and attention to detail required in baking perfectly complement my work as a front-end engineer.</p>
+        </div>
+    </section>
+
+    <section class="transferable-skills">
+        <h2>Transferable Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <i class="fas fa-paint-brush"></i>
+                <h3>Creativity & Design</h3>
+                <p>Just as I craft beautiful cakes, I create elegant user interfaces. Both require an eye for aesthetics, color theory, and attention to detail.</p>
+            </div>
+            <div class="skill-card">
+                <i class="fas fa-calculator"></i>
+                <h3>Precision & Problem-Solving</h3>
+                <p>Baking requires exact measurements and troubleshooting, similar to debugging code. Both demand analytical thinking and systematic approaches.</p>
+            </div>
+            <div class="skill-card">
+                <i class="fas fa-clock"></i>
+                <h3>Time Management</h3>
+                <p>Managing multiple baking orders parallels handling multiple development projects, requiring excellent organization and prioritization.</p>
+            </div>
+            <div class="skill-card">
+                <i class="fas fa-users"></i>
+                <h3>Customer Service</h3>
+                <p>Understanding client needs in baking translates directly to gathering user requirements in software development.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="featured-products">
+        <h2>Featured Creations</h2>
+        <div class="product-grid">
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="media/wedding.jpg" alt="Custom Wedding Cake">
+                    <div class="product-overlay">
+                        <a href="#" class="product-link">View Details</a>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h3>Custom Wedding Cakes</h3>
+                    <p>Elegant designs tailored to your special day</p>
+                    <div class="product-tags">
+                        <span>Wedding</span>
+                        <span>Custom Design</span>
+                    </div>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="media/birthday2.jpg" alt="Birthday Special">
+                    <div class="product-overlay">
+                        <a href="#" class="product-link">View Details</a>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h3>Birthday Specials</h3>
+                    <p>Creative and personalized birthday celebrations</p>
+                    <div class="product-tags">
+                        <span>Birthday</span>
+                        <span>Custom</span>
+                    </div>
+                </div>
+            </div>
+            <div class="product-card">
+                <div class="product-image">
+                    <img src="media/cooperate cake.jpg" alt="Corporate Events">
+                    <div class="product-overlay">
+                        <a href="#" class="product-link">View Details</a>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h3>Corporate Events</h3>
+                    <p>Professional catering for business occasions</p>
+                    <div class="product-tags">
+                        <span>Corporate</span>
+                        <span>Events</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="business-values">
+        <h2>Our Values</h2>
+        <div class="values-grid">
+            <div class="value-card">
+                <i class="fas fa-heart"></i>
+                <h3>Passion</h3>
+                <p>Every creation is made with love and dedication</p>
+            </div>
+            <div class="value-card">
+                <i class="fas fa-star"></i>
+                <h3>Quality</h3>
+                <p>Only the finest ingredients and craftsmanship</p>
+            </div>
+            <div class="value-card">
+                <i class="fas fa-handshake"></i>
+                <h3>Trust</h3>
+                <p>Building lasting relationships with our clients</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-baking">
+        <h2>Order Your Custom Creation</h2>
+        <div class="contact-container">
+            <form id="baking-form">
+                <div class="form-group">
+                    <input type="text" id="name" name="name" required>
+                    <label for="name">Name</label>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" name="email" required>
+                    <label for="email">Email</label>
+                </div>
+                <div class="form-group">
+                    <input type="tel" id="phone" name="phone" required>
+                    <label for="phone">Phone</label>
+                </div>
+                <div class="form-group">
+                    <textarea id="message" name="message" required></textarea>
+                    <label for="message">Tell us about your order</label>
+                </div>
+                <button type="submit" class="submit-button">Send Order Request</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="social-links">
+            <a href="https://github.com/cissybosibori"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/silvya-bosibori/"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+        <p>&copy; 2025 cissycodes. All rights reserved.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html> 

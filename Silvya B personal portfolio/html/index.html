@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Silvya Bosibori | Front-End Engineer</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <canvas id="particle-canvas"></canvas>
+    <nav class="navbar">
+        <div class="logo">SB</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="education.html">Education</a></li>
+            <li><a href="cissybakes.html">CissyBakes</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="profile-section">
+            <div class="profile-image-container">
+                <img src="media/profile2.jpeg" alt="Silvya Bosibori" class="profile-image">
+            </div>
+            <div class="text-content">
+                <h1>Silvya Bosibori</h1>
+                <h2>Software Engineer</h2>
+                <p>Crafting elegant digital experiences</p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="cta-button">Get in Touch</a>
+                    <a href="media/resume.pdf" class="cta-button secondary" download>Download CV</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <div class="about-details">
+                    <p>A passionate home baker turned tech enthusiast, now on an exciting journey to become a full-stack developer. My transition into the tech world was sparked by a deep curiosity for how digital experiences are built and a love for problem-solving. After taking several introductory courses, I discovered my passion for frontend development, and I am now actively expanding my skills to master backend technologies and eventually become a well-rounded full-stack developer.</p>
+                    <p>Beyond coding, I am also an entrepreneur. I founded Thamani Jewellery, an eCommerce store that brings authentic African jewellery to customers in the USA and Europe. My business is deeply rooted in my Kenyan heritage, as I work closely with local artisans to showcase their craftsmanship on a global scale. This venture has given me hands-on experience in eCommerce, digital marketing, and web technologies, further fueling my interest in tech.</p>
+                    <p>What excites me most about tech is its limitless potential to solve real-world problems and create meaningful experiences. I thrive in hands-on, practical learning environments, where I can build, experiment, and continuously improve. Whether it's developing a sleek, user-friendly interface or diving into the logic behind the scenes, I love every step of the creative process.</p>
+                </div>
+            </div>
+            <div class="about-details">
+                <div class="detail">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>Nairobi, Kenya</span>
+                </div>
+                <div class="detail">
+                    <i class="fas fa-code"></i>
+                    <span>Front-End Development</span>
+                </div>
+                <div class="detail">
+                    <i class="fas fa-store"></i>
+                    <span>Entrepreneur</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <canvas class="particle-container project-particles"></canvas>
+        <h2>Featured Projects</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="media/foodies.jpg" alt="Foodies">
+                    <div class="project-overlay">
+                        <a href="projects.html" class="project-link">View All Projects</a>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Recipe Website</h3>
+                    <p>A recipe website that showcases recipes from different cuisines.</p>
+                    <div class="project-tech">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="media/travel.jpg" alt="Travel Website">
+                    <div class="project-overlay">
+                        <a href="projects.html" class="project-link">View All Projects</a>
+                    </div>
+                </div>
+                <div class="project-info">
+                    <h3>Travel Website</h3>
+                    <p>A travel website that showcases your travel destinations, offers, and contact details for customers.</p>
+                    <div class="project-tech">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="view-all">
+            <a href="projects.html" class="cta-button">View All Projects</a>
+        </div>
+    </section>
+
+    <section id="skills" class="skills">
+        <h2>Skills & Expertise</h2>
+        <div class="skills-grid">
+            <div class="skill-category">
+                <h3>Front-End</h3>
+                <ul>
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>JavaScript</li>
+                    <li>React</li>
+                    <li>Python</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h3>Tools & Technologies</h3>
+                <ul>
+                    <li>Git</li>
+                    <li>VS Code</li>
+                    <li>Figma</li>
+                    <li>Webpack</li>
+                    <li>Responsive Design</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <canvas class="particle-container contact-particles"></canvas>
+        <h2>Get in Touch</h2>
+        <div class="contact-container">
+            <form id="contact-form">
+                <div class="form-group">
+                    <input type="text" id="name" name="name" required>
+                    <label for="name">Name</label>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" name="email" required>
+                    <label for="email">Email</label>
+                </div>
+                <div class="form-group">
+                    <textarea id="message" name="message" required></textarea>
+                    <label for="message">Message</label>
+                </div>
+                <button type="submit" class="submit-button">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="social-links">
+            <a href="https://github.com/cissybosibori"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/silvya-bosibori/"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+        <p>&copy; 2025 cissycodes. All rights reserved.</p>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html> 
